@@ -1,5 +1,6 @@
-import Layout from "../components/_App/layout";
-
+import  HomeHead  from "../components/home/home-head/homeHead"
 export default function Home() {
-  return <h1>home</h1>
+  return (
+    <HomeHead/>
+  )
 }

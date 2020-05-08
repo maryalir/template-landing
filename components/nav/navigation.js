@@ -30,7 +30,7 @@ export default function Navigation() {
 
   return (
     <>
-      <div className="header">
+      <div className="header scrolling-nav">
         <div className="container">
           <nav>
             <ul>
