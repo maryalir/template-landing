@@ -1,7 +1,11 @@
+import { useState } from "react";
 import Link from "next/link";
 import "./homeSample.scss";
 
 export default function HomeSample() {
+  const [included, setIncluded] = useState(false);
+  const [benefits, setBenefits] = useState(false);
+
   return (
     <div className="wrapper-samples">
       <div className="wrapper-sample">
@@ -18,11 +22,25 @@ export default function HomeSample() {
           </p>
           <div className="sample-details">
             <div className="text-detail">
-              <h5>
+              <h5 onClick={() => setIncluded(!included)}>
                 <span>></span> What's included
+                {included && (
+                  <ul>
+                    <li>Lorem ipsum</li>{" "}
+                    <li>Lorem ipsum</li>{" "}
+                    <li>Lorem ipsum</li>{" "}
+                  </ul>
+                )}
               </h5>
-              <h5>
+              <h5 onClick={() => setBenefits(!benefits)}>
                 <span>></span> Some benefits
+                {benefits && (
+                  <ul>
+                    <li>Lorem ipsum</li>{" "}
+                    <li>Lorem ipsum</li>{" "}
+                    <li>Lorem ipsum</li>{" "}
+                  </ul>
+                )}
               </h5>
             </div>
             <Link href="/contact">
