@@ -1,0 +1,137 @@
+// COLORS
+$primary: #03bfcb;
+$secundary: #074767;
+$third: #e4edf3;
+$black: #000;
+$white: #fff;
+$shadow: rgba(000, 000, 000, 0.15);
+$gradient: #06385aad;
+
+// RESOLUTION
+$break-large: 1200px;
+
+.wrapper-about {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 220px 0 0 0;
+  .wrapper-img-about {
+    position: absolute;
+    overflow-x: hidden;
+    width: 99.2vw;
+    height: 500px;
+    background: linear-gradient($gradient, $gradient),
+      url("https://www.barnesandassociatesins.com/assets/images/service.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .about-info {
+    position: relative;
+    z-index: 2;
+    width: 48%;
+    h4 {
+      color: $primary;
+      text-transform: uppercase;
+    }
+    h2 {
+      color: $white;
+    }
+    p {
+      color: $white;
+      font-weight: 200;
+      font-size: 14px;
+      width: 80%;
+      letter-spacing: 0.5px;
+      text-align: justify;
+      line-height: 20px;
+    }
+    h5 {
+      display: flex;
+      align-items: center;
+      color: $white;
+      span {
+        margin-left: 15px;
+        color: $primary;
+        font-weight: bolder;
+        font-size: 20px;
+        animation: disolve 1.5s linear infinite;
+      }
+    }
+  }
+  .about-client-service {
+    position: relative;
+    z-index: 2;
+    width: 48%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    .sm-service {
+      width: 48%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      .img-sm-service {
+        width: 50px;
+        height: 50px;
+        background: $primary;
+      }
+      .ctx-sm-service {
+        h5 {
+          color: $white;
+          text-transform: uppercase;
+          font-weight: 700;
+          margin-bottom: 0;
+        }
+        p {
+          font-size: 14px;
+          color: $white;
+          font-weight: 200;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $break-large) {
+  .wrapper-about {
+    flex-direction: column;
+    // margin: 100px 0px;
+    .wrapper-img-about {
+      height: 900px;
+    }
+    .about-info {
+      width: 100%;
+      p{
+          width: 100%;
+      }
+    }
+    .about-client-service{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        .sm-service{
+            justify-content: flex-start;
+            width: 100%;
+            .img-sm-service{
+                margin-right: 20px;
+            }
+        }
+    }
+  }
+}
+
+@keyframes disolve {
+  from {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(20px);
+    opacity: 0;
+  }
+}

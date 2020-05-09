@@ -7,16 +7,15 @@ $white: #fff;
 $shadow: rgba(000, 000, 000, 0.15);
 
 // RESOLUTION
-
 $break-large: 1200px;
 
 .header {
   width: 100%;
-  height: 100px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
-//   background: $secundary;
+  //   background: $secundary;
   z-index: 999 !important;
   position: fixed;
   top: 0;
@@ -147,6 +146,28 @@ ul.mobile-nav {
     font-weight: bold;
     padding: 20px 0;
     border-bottom: 1px solid $third;
+    &:hover {
+      color: $primary;
+    }
+  }
+}
+
+.sub-menu {
+  position: absolute;
+  top: 80px;
+  display: flex;
+  flex-direction: column;
+  background: $third;
+  width: 200px !important;
+  right: 330px;
+  li {
+    cursor: pointer;
+    font-weight: bold;
+    color: $secundary;
+    padding: 10px 0;
+    margin: 10px 0;
+    width: 90%;
+    border-bottom: 1px solid $secundary;
     &:hover {
       color: $primary;
     }

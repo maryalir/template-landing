@@ -23,10 +23,30 @@ const links = [
     name: "Seguridad",
     url: "/seguridad",
   },
+  {
+    name: "Contact Us",
+    url: "/contact",
+  },
+];
+
+const regLinks = [
+  {
+    name: "Home",
+    url: "/",
+  },
+  {
+    name: "Services",
+    url: "/services",
+  },
+  {
+    name: "Contact Us",
+    url: "/contact",
+  },
 ];
 
 export default function Navigation() {
   const [hamburger, setHamburger] = useState(false);
+  const [subMenu, setSubMenu] = useState(false);
 
   return (
     <>
@@ -39,7 +59,7 @@ export default function Navigation() {
               </Link>
             </ul>
             <ul className="reg-menu">
-              {links.map((link, id) => {
+              {regLinks.map((link, id) => {
                 return (
                   <Link key={id} href={`${link.url}`}>
                     <li>{link.name}</li>
@@ -75,7 +95,9 @@ export default function Navigation() {
             })}
             <div>
               <p>CALL US: (023) 112 589 139</p>
-              <p>Baker Street London, <br/> United Kingdom</p>
+              <p>
+                Baker Street London, <br /> United Kingdom
+              </p>
             </div>
           </ul>
         </div>
