@@ -17,7 +17,7 @@ $break-large: 1200px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 220px 0 0 0;
+  margin: 125px 0 0 0;
   .wrapper-img-about {
     position: absolute;
     overflow-x: hidden;
@@ -80,6 +80,7 @@ $break-large: 1200px;
         width: 50px;
         height: 50px;
         background: $primary;
+        border-radius: 5px;
       }
       .ctx-sm-service {
         h5 {
