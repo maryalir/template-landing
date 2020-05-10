@@ -9,6 +9,8 @@ $gradient: #06385aad;
 
 // RESOLUTION
 $break-large: 1200px;
+// $break-middle: 969px;
+$break-small: 469px;
 
 .wrapper-samples {
   width: 100%;
@@ -117,7 +119,7 @@ $break-large: 1200px;
   }
 }
 
-@media screen and (max-width: $break-large) {
+@media screen and (max-width: $break-small) {
   .wrapper-sample {
     flex-direction: column;
     .sample-img {

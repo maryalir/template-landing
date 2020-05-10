@@ -8,7 +8,7 @@ $shadow: rgba(000, 000, 000, 0.15);
 $gradient: #06385aad;
 
 // RESOLUTION
-$break-large: 1200px;
+$break-small: 469px;
 
 .wrapper-team {
   margin-top: 100px;
@@ -126,7 +126,7 @@ $break-large: 1200px;
   }
 }
 
-@media screen and (max-width: $break-large) {
+@media screen and (max-width: $break-small) {
   .wrapper-team {
     height: 1600px;
     .wrapper-bckg-team {

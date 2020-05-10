@@ -9,7 +9,7 @@ function Layout({ children }) {
         <link rel="stylesheet" type="text/css" href="styles.css" />
         <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
         <script type="text/javascript" src="scripts/scrollNav.js"></script>
-        <script src="https://kit.fontawesome.com/0569cd482e.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/0569cd482e.js" crossOrigin="anonymous"></script>
       </Head>
       <Navigation />
       <div className="wrapper-container">
