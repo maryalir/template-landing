@@ -32,7 +32,6 @@ export default function Footer() {
           </ul>
         </div>
         <div className="ft-box">
-            <h3>Find us now</h3>
           <p>
             Address: <span>139 Baker St, E1 7PT,London</span>
           </p>

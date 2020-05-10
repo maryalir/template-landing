@@ -9,7 +9,7 @@ $gradient: #06385aad;
 
 // RESOLUTION
 $break-large: 1200px;
-// $break-middle: 969px;
+$break-middle: 969px;
 $break-small: 469px;
 
 .wrapper-samples {
@@ -98,10 +98,10 @@ $break-small: 469px;
   align-items: center;
   .s-details {
     display: flex;
-    justify-content: space-between;
-    width: 40%;
+    justify-content: flex-start;
+    width: 48%;
     .s-img-detail {
-      margin: auto 0;
+      margin: auto 20px auto 0;
       width: 60px;
       height: 60px;
       background: $primary;
@@ -119,7 +119,7 @@ $break-small: 469px;
   }
 }
 
-@media screen and (max-width: $break-small) {
+@media screen and (max-width: $break-middle) {
   .wrapper-sample {
     flex-direction: column;
     .sample-img {
@@ -149,7 +149,7 @@ $break-small: 469px;
     margin-bottom: 25px;
     .s-details {
       display: flex;
-      justify-content: space-between;
+      justify-content: flex-start;
       width: 100%;
       .s-text-detail {
         width: 70%;
