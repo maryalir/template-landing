@@ -46,10 +46,11 @@ $break-large: 1200px;
       }
       p {
         color: $secundary;
-        letter-spacing: 0.5px;
-        text-align: justify;
-        line-height: 25px;
         font-weight: lighter;
+        font-size: 14px;
+        letter-spacing: 0.25px;
+        text-align: justify;
+        line-height: 20px;
       }
       .sample-details {
         display: flex;

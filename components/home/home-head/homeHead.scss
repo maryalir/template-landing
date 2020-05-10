@@ -83,9 +83,9 @@ $break-large: 1200px;
       padding: 10px 20px 30px;
       font-weight: lighter;
       font-size: 14px;
-      letter-spacing: 0.5px;
+      letter-spacing: 0.25px;
       text-align: justify;
-      line-height: 25px;
+      line-height: 20px;
     }
   }
 }
@@ -120,6 +120,11 @@ $break-large: 1200px;
       font-size: 20px;
     }
     p {
+      font-weight: lighter;
+      font-size: 14px;
+      letter-spacing: 0.25px;
+      text-align: justify;
+      line-height: 20px;
     }
     .about-sign {
       display: flex;
