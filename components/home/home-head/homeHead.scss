@@ -11,6 +11,7 @@ $shadow: rgba(0, 0, 0, 0.15);
 $break-large: 1200px;
 
 .container-head {
+  position: relative;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -47,15 +48,44 @@ $break-large: 1200px;
         justify-content: center;
         align-items: center;
         color: $white;
+        cursor: pointer;
         &:nth-child(1) {
           margin-left: 0px;
+        }
+        &:nth-child(2) {
+          background: $white;
+          border: 2px solid $primary;
+        }
+        img {
+          width: 25px;
         }
       }
     }
   }
   .container-video {
-    // position: absolute !important;
+    position: absolute !important;
+    z-index: 999;
     width: 600px;
+    button {
+      margin: 15px;
+      font-size: 16px;
+      font-weight: 700;
+      white-space: nowrap;
+      border-radius: 5px;
+      height: 45px;
+      padding: 25px 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      background: rgba(255, 255, 255, 0);
+      border: 2px solid $white;
+      position: absolute;
+      z-index: 9999;
+    }
+    img {
+      width: 25px;
+    }
   }
 }
 

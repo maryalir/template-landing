@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Link from "next/link";
 import "./homeHead.scss";
 
@@ -26,6 +27,8 @@ const benefits = [
 ];
 
 export default function HomeHead() {
+  const [showVideo, setShowVideo] = useState(false);
+
   return (
     <>
       <div className="container-head">
@@ -35,42 +38,47 @@ export default function HomeHead() {
             Create your <br /> personal or bussines <br /> mobile app quickly!
           </h2>
           <div className="btn-cta-header">
-
-          <button>go to it!</button>
-          <button></button>
+            <button>go to it!</button>
+            <button onClick={() => setShowVideo(!showVideo)}>
+              <img src="/icons/play-circle-regular.svg" alt="play" />
+            </button>
           </div>
         </div>
-        <div className="container-video">
-          <video
-            id="my-video"
-            className="video-js"
-            controls={false}
-            preload="auto"
-            width="100%"
-            height="100%"
-            autoPlay={true}
-            loop={true}
-            muted={true}
-            style={{ backgroundColor: "white" }}
-            // poster="MY_VIDEO_POSTER.jpg"
-            data-setup="{}"
-          >
-            <source
-              src="https://aemabitfolder.sfo2.digitaloceanspaces.com/screencorporate.mp4"
-              type="video/mp4"
-            />
-          </video>
+        <div className="wrapper-img-ppal">
+          <img src="" alt="ppal"/>
         </div>
+        {showVideo && (
+          <div className="container-video">
+            <button onClick={() => setShowVideo(!showVideo)}>
+              <img src="/icons/times-circle-regular.svg" alt="play" />
+            </button>
+            <video
+              id="my-video"
+              className="video-js"
+              controls={true}
+              preload="auto"
+              width="100%"
+              height="100%"
+              autoPlay={true}
+              loop={true}
+              muted={true}
+              style={{ backgroundColor: "white" }}
+              // poster="MY_VIDEO_POSTER.jpg"
+              data-setup="{}"
+            >
+              <source
+                src="https://aemabitfolder.sfo2.digitaloceanspaces.com/screencorporate.mp4"
+                type="video/mp4"
+              />
+            </video>
+          </div>
+        )}
       </div>
 
       <div className="container-info">
         <div className="wrapper-texto">
-          <h4>
-          Advantages
-          </h4>
-          <h2>
-            Benefits to build your Kwiklee app!
-          </h2>
+          <h4>Advantages</h4>
+          <h2>Benefits to build your Kwiklee app!</h2>
         </div>
         <div className="container-info-nav">
           {benefits.map((service, id) => {
