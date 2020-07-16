@@ -18,35 +18,35 @@ export default function HomeServices() {
       <div className="wrapper-steps">
         <div className="steps">
           <div className="step-line">
-              <p>1</p>
-              <div className="line-inline"></div>
+            <p>1</p>
+            <div className="line-inline"></div>
           </div>
           <h4>Client Meeting</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipiscing elitsed do e amet
-            consectetur adipiscing eiusmodua ciolo cadente.
+            Consist in to select the best option to your business. what is the
+            best way to implement our app with your clients?
           </p>
         </div>
         <div className="steps">
           <div className="step-line">
-              <p>2</p>
-              <div className="line-inline"></div>
+            <p>2</p>
+            <div className="line-inline"></div>
           </div>
-          <h4>Quotation</h4>
+          <h4>Select a plan</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipiscing elitsed do e amet
-            consectetur adipiscing eiusmodua ciolo cadente.
+            Our subscription plans, are made thinking in the benefits that the
+            client's needs to upgrade your business to the next level.
           </p>
         </div>
         <div className="steps">
           <div className="step-line">
-              <p>3</p>
-              <div className="line-inline"></div>
+            <p>3</p>
+            <div className="line-inline"></div>
           </div>
-          <h4>Initialization</h4>
+          <h4>Build the future</h4>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipiscing elitsed do e amet
-            consectetur adipiscing eiusmodua ciolo cadente.
+            The process of building is extremely kwiklee in a few days you can
+            enjoy your new application in the market.
           </p>
         </div>
       </div>

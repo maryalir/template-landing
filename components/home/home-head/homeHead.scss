@@ -10,44 +10,79 @@ $shadow: rgba(0, 0, 0, 0.15);
 
 $break-large: 1200px;
 
-.container-video {
-  position: absolute !important;
+.container-head {
   width: 100%;
-  overflow-x: hidden;
-  left: 0;
-  top: 0;
-  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 180px 0px;
+  .wrapper-texto {
+    position: relative;
+    z-index: 1;
+    color: $black;
+    margin: 0px 45px;
+    h4 {
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 500;
+    }
+    h2 {
+      font-size: 35px;
+    }
+    .btn-cta-header {
+      display: flex;
+      justify-content: flex-start;
+      button {
+        margin: 0 15px;
+        font-size: 16px;
+        font-weight: 700;
+        white-space: nowrap;
+        border-radius: 5px;
+        height: 45px;
+        border: none;
+        background: $primary;
+        padding: 25px 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $white;
+        &:nth-child(1) {
+          margin-left: 0px;
+        }
+      }
+    }
+  }
+  .container-video {
+    // position: absolute !important;
+    width: 600px;
+  }
 }
 
-.wrapper-texto {
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  margin: 20% auto;
-  color: $third;
-  h2 {
-    font-size: 50px;
-  }
-  p {
-    font-size: 20px;
-  }
-  a {
-    margin: 50px;
-    text-decoration: none;
-    padding: 15px 80px;
-    background: $primary;
-    color: $third;
+.container-info {
+  .wrapper-texto {
+    position: relative;
+    z-index: 1;
+    color: $black;
+    margin: 0px 45px;
+    text-align: center;
+    h4 {
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 500;
+    }
   }
 }
 
 .container-info-nav {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 100px;
   .info-nav {
+    margin: 0px 25px 0px 0px;
+
     cursor: pointer;
-    width: 23%;
+    width: 30%;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -172,17 +207,16 @@ $break-large: 1200px;
     }
   }
 
-  .container-about{
+  .container-about {
     flex-direction: column;
     flex-direction: column-reverse;
-    .about-img{
+    .about-img {
       width: 98%;
       margin-top: 25px;
     }
-    .about-info{
+    .about-info {
       width: 100%;
       margin-top: 0;
     }
   }
-  
 }

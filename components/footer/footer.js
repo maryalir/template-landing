@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="wrapper-bkg-footer"></div>
       <div className="wrapper-ft-box">
         <div className="ft-box">
-          <h3>Custom Title</h3>
+          <h3>Kwiklee ™</h3>
           <p>
             Full suite enable teams to develop unique search and discovery
             experiences.
@@ -15,7 +15,7 @@ export default function Footer() {
           <div className="redes"></div>
         </div>
         <div className="ft-box">
-          <h3>Custom Title</h3>
+          <h3>Discover</h3>
           <ul>
             <Link href="#">
               <li>Partners and advertising</li>
@@ -33,13 +33,13 @@ export default function Footer() {
         </div>
         <div className="ft-box">
           <p>
-            Address: <span>139 Baker St, E1 7PT,London</span>
+            Address: <span>5091 NW 7 TH ST, Miami, FL</span>
           </p>
           <p>
-            Email: <span>contacts@example.com</span>
+            Email: <span>info@kwiklee.com</span>
           </p>
           <p>
-            Phone: <span>(02) 123 333 444</span>
+            Phone: <span>(305) 922 97 00</span>
           </p>
           <p>
             Opening:
@@ -48,7 +48,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="ft-copy">
-        <p>© 2020 Devel Q Corp - Technology And Business.</p>
+        <p>© 2020 Kwiklee - Technology And Business.</p>
         <p>Contact us | Privacy policy</p>
       </div>
     </div>

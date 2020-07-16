@@ -55,7 +55,7 @@ export default function Navigation() {
           <nav>
             <ul>
               <Link href="/">
-                <li className="title">AG Com</li>
+                <li className="title">Kwiklee</li>
               </Link>
             </ul>
             <ul className="reg-menu">
@@ -94,9 +94,9 @@ export default function Navigation() {
               );
             })}
             <div>
-              <p>CALL US: (023) 112 589 139</p>
+              <p>CALL US: (305) 922 97 00</p>
               <p>
-                Baker Street London, <br /> United Kingdom
+                Miami, Florida, <br /> United States
               </p>
             </div>
           </ul>
