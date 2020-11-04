@@ -4,25 +4,18 @@ import "./homeHead.scss";
 
 const benefits = [
   {
-    title: "Redes",
+    title: "Who we are",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Utenim ad minim veniam quis nostrud exercitation ullamco laboris.",
-    imgUrl: "https://templates.themekit.dev/execoore/media/image-3.jpg",
+      "At MIAPLUS+, we use smart tools and technology to simplify health insurance for all of us. Our goal is to take the confusion and chaos out of the process and build benefit-packed plans that still deliver surprisingly low rates, so you can focus on staying happy and healthy…and paying less for your healthcare.",
+    imgUrl: "https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/apreton-manos-feliz-pares-encargado-corredor-despues-firmar-contrato_1163-4185.jpg",
     url: "/redes",
   },
   {
-    title: "Computacion",
+    title: "How we do it",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Utenim ad minim veniam quis nostrud exercitation ullamco laboris.",
-    imgUrl: "https://templates.themekit.dev/execoore/media/image-4.jpg",
+      "All things work better with great relationships. So, we work hand-in-hand with our Care Partners – a carefully curated network of doctors, clinics and hospitals – to provide the best healthcare at the best possible price. We do the work to make things run as smooth as possible, so you and your doctor can focus on keeping you healthy.",
+    imgUrl: "https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/gente-negocios-trabajando-oficina-tableta-digital_1301-6586.jpg",
     url: "/computacion",
-  },
-  {
-    title: "Telefonia",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elitsed do eiusmod tempor incididunt utlabore et dolore magna aliqua. Utenim ad minim veniam quis nostrud exercitation ullamco laboris.",
-    imgUrl: "https://templates.themekit.dev/execoore/media/image-5.jpg",
-    url: "/telefonia",
   },
 ];
 
@@ -33,19 +26,23 @@ export default function HomeHead() {
     <>
       <div className="container-head">
         <div className="wrapper-texto">
-          <h4>get started</h4>
-          <h2>
-            Create your <br /> personal or bussines <br /> mobile app quickly!
-          </h2>
+          <h4>Insurance Solutions</h4>
+          <h2>Life can change pretty fast. Make sure you're covered!</h2>
+          <p>
+            Big life changes like having a baby or leaving an employer-sponsored
+            health plan may make you eligible for a Special Enrollment Period.
+            If you need insurance right now, see our plans or contact your
+            broker for some great advice.
+          </p>
           <div className="btn-cta-header">
-            <button>go to it!</button>
+            <button>Get a Quote</button>
             <button onClick={() => setShowVideo(!showVideo)}>
               <img src="/icons/play-circle-regular.svg" alt="play" />
             </button>
           </div>
         </div>
         <div className="wrapper-img-ppal">
-          <img src="" alt="ppal"/>
+          <img src="https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/familia-joven-sus-hijos-casa-divirtiendose_1303-20999.jpg" alt="ppal" />
         </div>
         {showVideo && (
           <div className="container-video">
@@ -61,13 +58,12 @@ export default function HomeHead() {
               height="100%"
               autoPlay={true}
               loop={true}
-              muted={true}
               style={{ backgroundColor: "white" }}
               // poster="MY_VIDEO_POSTER.jpg"
               data-setup="{}"
             >
               <source
-                src="https://aemabitfolder.sfo2.digitaloceanspaces.com/screencorporate.mp4"
+                src="https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/insrance.mp4"
                 type="video/mp4"
               />
             </video>
@@ -78,7 +74,7 @@ export default function HomeHead() {
       <div className="container-info">
         <div className="wrapper-texto">
           <h4>Advantages</h4>
-          <h2>Benefits to build your Kwiklee app!</h2>
+          <h2>Benefits to get an insurance with us!</h2>
         </div>
         <div className="container-info-nav">
           {benefits.map((service, id) => {
@@ -95,16 +91,15 @@ export default function HomeHead() {
         </div>
         <div className="container-about">
           <div className="about-img">
-            <img src="https://templates.themekit.dev/execoore/media/image-2.jpg" />
+            <img src="https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/LogoMIAPLUSazulMINI.png" />
           </div>
           <div className="about-info">
             <h4>ABOUT US</h4>
             <h2>Our values and goals</h2>
             <p>
-              Kwiklee ™ is a startup dedicated to build new tools to the future
-              troghut the software, providing qualified technical assistance
-              with a professional-level team and a suitable equipment for the
-              latest technology.
+              At MIAPLUS+, we believe quality healthcare should be accessible,
+              easy and affordable. Our approach to plans, services and benefits
+              make health insurance easy-to-understand and easy-to-use.
             </p>
             <div className="about-sign">
               <div className="logo-img">

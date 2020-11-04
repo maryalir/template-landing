@@ -7,23 +7,7 @@ const links = [
     name: "Home",
     url: "/",
   },
-  {
-    name: "Redes",
-    url: "/redes",
-  },
-  {
-    name: "Computacion",
-    url: "/computacion",
-  },
-  {
-    name: "Telefonia",
-    url: "/telefonia",
-  },
-  {
-    name: "Seguridad",
-    url: "/seguridad",
-  },
-  {
+ {
     name: "Contact Us",
     url: "/contact",
   },
@@ -33,10 +17,6 @@ const regLinks = [
   {
     name: "Home",
     url: "/",
-  },
-  {
-    name: "Services",
-    url: "/services",
   },
   {
     name: "Contact Us",
@@ -55,7 +35,9 @@ export default function Navigation() {
           <nav>
             <ul>
               <Link href="/">
-                <li className="title">Kwiklee</li>
+                <li className="title">
+                  <img src="https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/LogoMIAPLUSazul.png" alt="MIAPLUS+"/>
+                </li>
               </Link>
             </ul>
             <ul className="reg-menu">
