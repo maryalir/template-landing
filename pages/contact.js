@@ -1,5 +1,11 @@
+import Footer from "../components/footer/footer";
+import CalendlyComponent from "../components/calendlyIntegration/calendlyComponent";
+
 export default function contact() {
-    return(
-        <h1>contact</h1>
-    )
+  return (
+    <>
+      <CalendlyComponent />
+      <Footer />
+    </>
+  );
 }

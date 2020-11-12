@@ -1,0 +1,57 @@
+// COLORS
+$primary: #0d4d90;
+$cta: #ec9a4a;
+$complementary: #f6bab4;
+$darkBlue: #002143;
+$lightGray: #99a6b4;
+$primarytransparent: #f2f8fd;
+$ctatransparent: #fef4ee;
+$black: #000;
+$white: #fff;
+$shadow: rgba(0, 0, 0, 0.15);
+$radius-box: 10px;
+
+// RESOLUTION
+$break-large: 1250px;
+$break-medium: 800px;
+$break-small: 560px;
+
+.wrapper-calendly {
+  margin-top: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .container-calendly {
+    margin: 100px 0px;
+    width: 100%;
+  }
+}
+
+@media (max-width: $break-medium) {
+  .wrapper-calendly {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container-calendly {
+      margin: 120px 0px;
+      width: 100%;
+    }
+  }
+}
+
+
+@media (max-width: $break-small) {
+  .wrapper-calendly {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container-calendly {
+      margin-top: 120px;
+      margin-bottom: 0px;
+      width: 100%;
+    }
+  }
+}
