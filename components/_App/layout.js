@@ -16,7 +16,7 @@ function Layout({ children }) {
           content="MiaPlus+ offers Marketplace insurance plans with different coverage and premium levels. Learn more about our affordable healthcare plans and compare each..."
         />
 
-        <meta property="og:title" content="Gold Tree by CS" />
+        <meta property="og:title" content="MiaPlus+" />
         <meta
           property="og:description"
           content="MiaPlus+ offers Marketplace insurance plans with different coverage and premium levels. Learn more about our affordable healthcare plans and compare each..."
