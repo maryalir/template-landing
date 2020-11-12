@@ -86,8 +86,7 @@ button {
 @media screen and (max-width: $break-small) {
   .container-map {
     flex-direction: column;
-    height: 700px;
-    justify-content: space-evenly;
+    justify-content: space-between;
     .wrapper-text {
       width: 100%;
       margin-bottom: 0px !important;

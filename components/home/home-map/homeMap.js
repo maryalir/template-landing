@@ -12,7 +12,7 @@ export default function HomeMap() {
     <>
       <div className="container-map">
         <div className="wrapper-text">
-          <h4>How is MiaPlus+ is different? </h4>
+          <h4>How is MiaPlus+ different? </h4>
           <h2>Check out our new plan benefits</h2>
           <ul>
             {promoText.map((text, i) => {

@@ -23,12 +23,13 @@ export default function HomeHead() {
           <h2>
             YOUR FUTURE DEPENDS ON THE NEXT 5 MINUTES AFTER YOU READ THIS!
           </h2>
-          <p>
+          {/* <p>
             Big life changes like having a baby or leaving an employer-sponsored
             health plan may make you eligible for a Special Enrollment Period.
             If you need insurance right now, see our plans or contact your
             broker for some great advice.
-          </p>
+          </p> */}
+          <p>Open enrollment is only once at year and it's now!</p>
           <div className="btn-cta-header">
             <button>Get a quote now!</button>
             <button onClick={() => setShowVideo(!showVideo)}>
