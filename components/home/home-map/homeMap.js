@@ -8,6 +8,11 @@ const promoText = [
 ];
 
 export default function HomeMap() {
+
+  function redirectTo(){
+    window.location.href="https://miaplus-quote.vercel.app"
+  }
+
   return (
     <>
       <div className="container-map">
@@ -20,9 +25,7 @@ export default function HomeMap() {
             })}
           </ul>
           <div className="btn-cta-header">
-            <Link href="https://miaplus-quote.vercel.app">
-              <button>Get a quote now!</button>
-            </Link>
+              <button onClick={() => redirectTo()}>Get a quote now!</button>
           </div>
         </div>
         <div className="wrapper-map">

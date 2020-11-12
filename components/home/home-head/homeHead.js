@@ -15,6 +15,10 @@ const partnersLogos = [
 export default function HomeHead() {
   const [showVideo, setShowVideo] = useState(false);
 
+  function redirectTo(){
+    window.location.href="https://miaplus-quote.vercel.app"
+  }
+
   return (
     <>
       <div className="container-head">
@@ -31,9 +35,9 @@ export default function HomeHead() {
           </p> */}
           <p>Open enrollment is only once at year and it's now!</p>
           <div className="btn-cta-header">
-            <Link href="https://miaplus-quote.vercel.app">
-              <button>Get a quote now!</button>
-            </Link>
+            <button onClick={() => redirectTo()}>
+                Get a quote now!{" "}
+            </button>
             <button onClick={() => setShowVideo(!showVideo)}>
               <img src="/icons/play-circle-regular.svg" alt="play" />
             </button>

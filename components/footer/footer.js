@@ -2,6 +2,10 @@ import Link from "next/link";
 import "./footer.scss";
 
 export default function Footer() {
+  function redirectTo() {
+    window.location.href = "https://miaplus-quote.vercel.app";
+  }
+
   return (
     <div className="wrapper-footer">
       <div className="wrapper-bkg-footer"></div>
@@ -18,9 +22,7 @@ export default function Footer() {
         <div className="ft-box">
           <h3>Discover</h3>
           <ul>
-            <Link href="https://miaplus-quote.vercel.app">
-              <li>Get a Quote NOW!</li>
-            </Link>
+            <li onClick={() => redirectTo()}>Get a Quote NOW!</li>
             <Link href="#">
               <li>Download our app</li>
             </Link>
