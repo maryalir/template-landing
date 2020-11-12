@@ -1,8 +1,6 @@
 import HomeHead from "../components/home/home-head/homeHead";
+import HomeEnd from "../components/home/home-end/homeEnd";
 import HomeMiddle from "../components/home/home-middle/homeMiddle";
-import HomeServices from "../components/home/home-services/homeServices";
-import HomeSample from "../components/home/homeSample/homeSample";
-import HomeTeam from "../components/home/home-team/homeTeam";
 import Footer from "../components/footer/footer";
 
 export default function Home() {
@@ -10,10 +8,8 @@ export default function Home() {
     <>
       <HomeHead />
       <HomeMiddle />
-      <HomeServices />
-      <HomeSample />
-      <HomeTeam />
-      <Footer/>
+      <HomeEnd />
+      <Footer />
     </>
   );
 }

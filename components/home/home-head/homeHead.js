@@ -7,16 +7,36 @@ const benefits = [
     title: "Who we are",
     description:
       "At MIAPLUS+, we use smart tools and technology to simplify health insurance for all of us. Our goal is to take the confusion and chaos out of the process and build benefit-packed plans that still deliver surprisingly low rates, so you can focus on staying happy and healthy…and paying less for your healthcare.",
-    imgUrl: "https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/apreton-manos-feliz-pares-encargado-corredor-despues-firmar-contrato_1163-4185.jpg",
+    imgUrl:
+      "https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/apreton-manos-feliz-pares-encargado-corredor-despues-firmar-contrato_1163-4185.jpg",
     url: "/redes",
   },
   {
     title: "How we do it",
     description:
       "All things work better with great relationships. So, we work hand-in-hand with our Care Partners – a carefully curated network of doctors, clinics and hospitals – to provide the best healthcare at the best possible price. We do the work to make things run as smooth as possible, so you and your doctor can focus on keeping you healthy.",
-    imgUrl: "https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/gente-negocios-trabajando-oficina-tableta-digital_1301-6586.jpg",
+    imgUrl:
+      "https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/gente-negocios-trabajando-oficina-tableta-digital_1301-6586.jpg",
     url: "/computacion",
   },
+  {
+    title: "Quote now! ",
+    description: "Mia Plus+ we are your best option.",
+    imgUrl:
+      "https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/happy-female-agent-customer-meeting-cup-coffee-using-tablet-together.jpg",
+    url: "/computacion",
+  },
+];
+
+const partnersLogos = [
+  "https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/logos/icon-ambetter-lg.png",
+  "https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/logos/BBPA-lockup.png",
+  "https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/logos/florida-blue-logo-5766E58EBE-seeklogo.com.png",
+  "https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/logos/AvMed_Logo_Stacked_2c.png",
+  "https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/logos/blue-cross-blue-shield-1-logo.png",
+  "https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/logos/Oscar_Health_logo.svg_.png",
+  "https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/logos/PNGPIX-COM-Molina-Healthcare-Logo-PNG-Transparent.png",
+  "https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/logos/FRIDAY_logo-SM_RGB_Facebook-1.png",
 ];
 
 export default function HomeHead() {
@@ -27,7 +47,9 @@ export default function HomeHead() {
       <div className="container-head">
         <div className="wrapper-texto">
           <h4>Insurance Solutions</h4>
-          <h2>Life can change pretty fast. Make sure you're covered!</h2>
+          <h2>
+            YOUR FUTURE DEPENDS ON THE NEXT 5 MINUTES AFTER YOU READ THIS!
+          </h2>
           <p>
             Big life changes like having a baby or leaving an employer-sponsored
             health plan may make you eligible for a Special Enrollment Period.
@@ -42,7 +64,10 @@ export default function HomeHead() {
           </div>
         </div>
         <div className="wrapper-img-ppal">
-          <img src="https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/familia-joven-sus-hijos-casa-divirtiendose_1303-20999.jpg" alt="ppal" />
+          <img
+            src="https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/familia-joven-sus-hijos-casa-divirtiendose_1303-20999.jpg"
+            alt="ppal"
+          />
         </div>
         {showVideo && (
           <div className="container-video">
@@ -71,6 +96,19 @@ export default function HomeHead() {
         )}
       </div>
 
+      <div className="wrapper-our-formula">
+        <div className="background-wrapper"></div>
+        <div className="wrapper-partners">
+          {partnersLogos.map((logoUrl, id) => {
+            return (
+              <div className="partners" key={id}>
+                <img src={`${logoUrl}`} alt="logo" />
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
       <div className="container-info">
         <div className="wrapper-texto">
           <h4>Advantages</h4>
@@ -88,33 +126,6 @@ export default function HomeHead() {
               </Link>
             );
           })}
-        </div>
-        <div className="container-about">
-          <div className="about-img">
-            <img src="https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/LogoMIAPLUSazulMINI.png" />
-          </div>
-          <div className="about-info">
-            <h4>ABOUT US</h4>
-            <h2>Our values and goals</h2>
-            <p>
-              At MIAPLUS+, we believe quality healthcare should be accessible,
-              easy and affordable. Our approach to plans, services and benefits
-              make health insurance easy-to-understand and easy-to-use.
-            </p>
-            <div className="about-sign">
-              <div className="logo-img">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/James_Rodriguez_Signature.svg/1280px-James_Rodriguez_Signature.svg.png"
-                  alt="sign"
-                />
-              </div>
-              <div>
-                {" "}
-                <h4>Andres Mejias</h4>
-                <p>Founder & CEO</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </>
