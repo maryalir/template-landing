@@ -9,7 +9,7 @@ export default function HomeMiddle() {
         <h2>Benefits for All</h2>
         <p>
           Everyone receives the medical care they need, and your company has
-          happy, healthy, and productive employees. Discover all that SimplyBlue
+          happy, healthy, and productive employees. Discover all that MiaPlus+
           has to offer and find the right plan for you.
         </p>
         <h5>
