@@ -23,7 +23,7 @@ const benefits = [
     description: `Feel good about individual & family healthcare. At MiaPlus+, we believe protecting yourself and your family with quality health insurance should be easy and affordable. Plans that offer $0 deductible to help you save on all of your healthcare needs!`,
     imgUrl:
       "https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/happy-female-agent-customer-meeting-cup-coffee-using-tablet-together.jpg",
-    url: "#",
+    url: "https://miaplus-quote.vercel.app",
   },
 ];
 

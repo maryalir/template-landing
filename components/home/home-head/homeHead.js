@@ -31,7 +31,9 @@ export default function HomeHead() {
           </p> */}
           <p>Open enrollment is only once at year and it's now!</p>
           <div className="btn-cta-header">
-            <button>Get a quote now!</button>
+            <Link href="https://miaplus-quote.vercel.app">
+              <button>Get a quote now!</button>
+            </Link>
             <button onClick={() => setShowVideo(!showVideo)}>
               <img src="/icons/play-circle-regular.svg" alt="play" />
             </button>

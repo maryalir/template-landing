@@ -18,7 +18,7 @@ export default function Footer() {
         <div className="ft-box">
           <h3>Discover</h3>
           <ul>
-            <Link href="#">
+            <Link href="https://miaplus-quote.vercel.app">
               <li>Get a Quote NOW!</li>
             </Link>
             <Link href="#">

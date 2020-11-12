@@ -20,7 +20,9 @@ export default function HomeMap() {
             })}
           </ul>
           <div className="btn-cta-header">
-            <button>Get a quote now!</button>
+            <Link href="https://miaplus-quote.vercel.app">
+              <button>Get a quote now!</button>
+            </Link>
           </div>
         </div>
         <div className="wrapper-map">
