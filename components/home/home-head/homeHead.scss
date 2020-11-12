@@ -279,6 +279,12 @@ $break-small: 566px;
       width: 100%;
     }
   }
+
+  .container-video {
+    margin-top: 50px;
+    // position: absolute !important;
+    width: 300px;
+  }
 }
 
 @keyframes disolve {
