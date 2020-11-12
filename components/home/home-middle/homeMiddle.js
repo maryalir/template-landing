@@ -5,66 +5,67 @@ export default function HomeMiddle() {
     <div className="wrapper-about">
       <div className="wrapper-img-about"></div>
       <div className="about-info">
-        <h4>ABOUT US</h4>
-        <h2>The art of good service</h2>
+        <h4>Our Services</h4>
+        <h2>Benefits for All</h2>
         <p>
-          Despite all the noise and hype that customer service entails these
-          days, it really boils down to a simple old truth, often known as the
-          Golden Rule: "Treat others as you would like to be treated." .
+          Everyone receives the medical care they need, and your company has
+          happy, healthy, and productive employees. Discover all that SimplyBlue
+          has to offer and find the right plan for you.
         </p>
         <h5>
-          Customer Support <span> > </span>
+          Get a quote now! <span> {`${">"}`} </span>
         </h5>
       </div>
       <div className="about-client-service">
         <div className="sm-service">
           <div className="img-sm-service">
-            <i className="fas fa-user-shield"></i>
+            <img src="https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/icons/baseline_how_to_reg_white_48dp.png" alt="icon" />
           </div>
           <div className="ctx-sm-service">
-            <h5>Security</h5>
-            <p>Security of the information.</p>
+            <h5>Qualify</h5>
+            <p>Acceptance of pre-existing conditions.</p>
           </div>
         </div>
         <div className="sm-service">
           <div className="img-sm-service">
-            <i className="fas fa-cloud-upload-alt"></i>
+            <img src="https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/icons/baseline_add_location_alt_white_48dp.png" alt="icon" />
           </div>
           <div className="ctx-sm-service">
-            <h5>Updated</h5>
-            <p>Free updates.</p>
+            <h5>Nationwide Network</h5>
+            <p>Support on all United States.</p>
           </div>
         </div>
         <div className="sm-service">
           <div className="img-sm-service">
-            <i className="fas fa-ethernet"></i>
+            <img src="https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/icons/baseline_local_atm_white_48dp.png" alt="icon" />
           </div>
           <div className="ctx-sm-service">
-            <h5>Top Hardware</h5>
-            <p>Only the new in the market.</p>
+            <h5>Financial Support</h5>
+            <p>For you and your family.</p>
           </div>
         </div>
         <div className="sm-service">
           <div className="img-sm-service">
-            <i className="fas fa-headset"></i>
+            <img src="https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/icons/baseline_accessibility_new_white_48dp.png" alt="icon" />
           </div>
           <div className="ctx-sm-service">
-            <h5>Premium Team</h5>
-            <p>The best staff for the best customer.</p>
+            <h5>Free Quotes</h5>
+            <p>Monthly quotes from $0.</p>
           </div>
         </div>
         <div className="sm-service">
           <div className="img-sm-service">
-            <i className="fas fa-coins"></i>
+            <img src="https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/icons/baseline_check_circle_white_48dp.png" alt="icon" />
           </div>
           <div className="ctx-sm-service">
             <h5>Warranty</h5>
-            <p>On all our software.</p>
+            <p>Our support is the best on the market.</p>
           </div>
         </div>
         <div className="sm-service">
           <div className="img-sm-service">
-            <i className="fas fa-info-circle"></i>
+            <img src="https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/icons/baseline_support_agent_white_48dp.png" alt="icon" />
+            
           </div>
           <div className="ctx-sm-service">
             <h5>Support Specialist.</h5>

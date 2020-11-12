@@ -9,7 +9,7 @@ const benefits = [
       "At MIAPLUS+, we use smart tools and technology to simplify health insurance for all of us. Our goal is to take the confusion and chaos out of the process and build benefit-packed plans that still deliver surprisingly low rates, so you can focus on staying happy and healthy…and paying less for your healthcare.",
     imgUrl:
       "https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/apreton-manos-feliz-pares-encargado-corredor-despues-firmar-contrato_1163-4185.jpg",
-    url: "/redes",
+    url: "#",
   },
   {
     title: "How we do it",
@@ -17,20 +17,20 @@ const benefits = [
       "All things work better with great relationships. So, we work hand-in-hand with our Care Partners – a carefully curated network of doctors, clinics and hospitals – to provide the best healthcare at the best possible price. We do the work to make things run as smooth as possible, so you and your doctor can focus on keeping you healthy.",
     imgUrl:
       "https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/gente-negocios-trabajando-oficina-tableta-digital_1301-6586.jpg",
-    url: "/computacion",
+    url: "#",
   },
   {
-    title: "Quote now! ",
-    description: "Mia Plus+ we are your best option.",
+    title: "get a Quote now! ",
+    description: `Feel good about individual & family healthcare. At MiaPlus+, we believe protecting yourself and your family with quality health insurance should be easy and affordable. Plans that offer $0 deductible to help you save on all of your healthcare needs!`,
     imgUrl:
       "https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/happy-female-agent-customer-meeting-cup-coffee-using-tablet-together.jpg",
-    url: "/computacion",
+    url: "#",
   },
 ];
 
 const partnersLogos = [
   "https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/logos/icon-ambetter-lg.png",
-  "https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/logos/BBPA-lockup.png",
+  "https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/logos/BBPA.png",
   "https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/logos/florida-blue-logo-5766E58EBE-seeklogo.com.png",
   "https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/logos/AvMed_Logo_Stacked_2c.png",
   "https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/logos/blue-cross-blue-shield-1-logo.png",
@@ -57,7 +57,7 @@ export default function HomeHead() {
             broker for some great advice.
           </p>
           <div className="btn-cta-header">
-            <button>Get a Quote</button>
+            <button>Get a quote now!</button>
             <button onClick={() => setShowVideo(!showVideo)}>
               <img src="/icons/play-circle-regular.svg" alt="play" />
             </button>

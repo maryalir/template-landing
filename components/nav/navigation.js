@@ -7,7 +7,7 @@ const links = [
     name: "Home",
     url: "/",
   },
- {
+  {
     name: "Contact Us",
     url: "/contact",
   },
@@ -36,7 +36,10 @@ export default function Navigation() {
             <ul>
               <Link href="/">
                 <li className="title">
-                  <img src="https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/LogoMIAPLUSazul.png" alt="MIAPLUS+"/>
+                  <img
+                    src="https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/LogoMIAPLUSazul.png"
+                    alt="MIAPLUS+"
+                  />
                 </li>
               </Link>
             </ul>
@@ -76,7 +79,12 @@ export default function Navigation() {
               );
             })}
             <div>
-              <p>CALL US: (305) 922 97 00</p>
+              <p>
+                Ph1: <span>(786) 253 4150</span>
+              </p>
+              <p>
+                Ph2: <span>(786) 853 4520</span>
+              </p>
               <p>
                 Miami, Florida, <br /> United States
               </p>

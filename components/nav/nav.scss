@@ -151,7 +151,7 @@ ul.mobile-nav {
     cursor: pointer;
     font-weight: bold;
     padding: 20px 0;
-    border-bottom: 1px solid $third;
+    border-bottom: 1px solid $secundary;
     &:hover {
       color: $primary;
     }
@@ -163,7 +163,7 @@ ul.mobile-nav {
   top: 80px;
   display: flex;
   flex-direction: column;
-  background: $third;
+  background: $secundary;
   width: 200px !important;
   right: 330px;
   li {

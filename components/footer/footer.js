@@ -7,24 +7,22 @@ export default function Footer() {
       <div className="wrapper-bkg-footer"></div>
       <div className="wrapper-ft-box">
         <div className="ft-box">
-          <h3>Kwiklee ™</h3>
-          <p>
-            Full suite enable teams to develop unique search and discovery
-            experiences.
-          </p>
+          <h3>MiaPlus+ ™</h3>
+          <p>Surprisingly low rates that make you feel better.</p>
+          <img
+            src="https://aemabitfolder.sfo2.digitaloceanspaces.com/MIAPLUS/en_badge_web_generic.png"
+            alt="android"
+          />
           <div className="redes"></div>
         </div>
         <div className="ft-box">
           <h3>Discover</h3>
           <ul>
             <Link href="#">
-              <li>Partners and advertising</li>
+              <li>Get a Quote NOW!</li>
             </Link>
             <Link href="#">
-              <li>About us and the company</li>
-            </Link>
-            <Link href="#">
-              <li>Services and projects</li>
+              <li>Download our app</li>
             </Link>
             <Link href="#">
               <li>Contact us</li>
@@ -32,18 +30,19 @@ export default function Footer() {
           </ul>
         </div>
         <div className="ft-box">
+          <h3>Get in touch!</h3>
           <p>
-            Address: <span>5091 NW 7 TH ST, Miami, FL</span>
+            Email: <span>ssalud.nm@gmail.com</span>
           </p>
           <p>
-            Email: <span>info@kwiklee.com</span>
+            Ph1: <span>(786) 253 4150</span>
           </p>
           <p>
-            Phone: <span>(305) 922 97 00</span>
+            Ph2: <span>(786) 853 4520</span>
           </p>
           <p>
-            Opening:
-            <span> hours 8am-5pm Mon - Fri</span>
+            Call us:
+            <span>Mon - Sat (7am - 10pm)</span>
           </p>
         </div>
       </div>
