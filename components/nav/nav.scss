@@ -9,7 +9,7 @@ $white: #fff;
 $shadow: rgba(000, 000, 000, 0.15);
 
 // RESOLUTION
-$break-large: 1200px;
+$break-large: 1000px;
 
 .header {
   width: 100%;
@@ -22,7 +22,7 @@ $break-large: 1200px;
   position: fixed;
   top: 0;
   .container {
-    width: 60%;
+    width: 80%;
     nav {
       width: 100%;
       display: flex;
@@ -71,7 +71,7 @@ $break-large: 1200px;
 
 @media screen and (max-width: $break-large) {
   .header {
-    height: 80px;
+    height: 120px;
   }
 
   .reg-menu {

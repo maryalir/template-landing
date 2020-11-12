@@ -10,7 +10,9 @@ $shadow: rgba(000, 000, 000, 0.15);
 
 // RESOLUTION
 
-$break-large: 1200px;
+$break-large: 1000px;
+$break-mid: 850px;
+$break-small: 566px;
 
 .container-head {
   position: relative;
@@ -208,11 +210,13 @@ $break-large: 1200px;
     justify-content: center;
     align-items: center;
     padding: 100px 0px 50px 0px;
+    flex-direction: column;
+    height: auto;
     .wrapper-texto {
       position: relative;
       z-index: 1;
       color: $black;
-      margin: 0px 45px;
+      width: 100%;
       h4 {
         text-transform: uppercase;
         letter-spacing: 1px;
@@ -221,7 +225,7 @@ $break-large: 1200px;
       }
       h2 {
         font-size: 35px;
-        text-align: center;
+        text-align: start;
       }
       .btn-cta-header {
         display: flex;
@@ -249,7 +253,7 @@ $break-large: 1200px;
     .container-video {
       margin-top: 50px;
       // position: absolute !important;
-      width: 300px;
+      width: 600px;
     }
   }
 
@@ -283,21 +287,67 @@ $break-large: 1200px;
   }
 
   .wrapper-our-formula {
-    height: 900px;
+    height: 600px;
     .background-wrapper {
-      height: 900px;
+      height: 600px;
     }
-    .head-formula {
-      flex-direction: column;
-      height: auto;
+  }
+
+  .wrapper-img-ppal {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    padding: 80px 0px 0px 0px;
+    img {
+      width: 100%;
     }
-    .wrapper-steps {
-      height: auto;
-      flex-direction: column;
-      .steps {
-        margin: 25px 0;
-        width: 100%;
+  }
+}
+
+@media screen and (max-width: $break-mid) {
+  .wrapper-our-formula {
+    .wrapper-partners {
+      flex-wrap: wrap;
+      .partners {
+        width: 45%;
+        margin: 20px 0px;
+        img {
+          width: 100px;
+        }
       }
+    }
+  }
+}
+@media screen and (max-width: $break-small) {
+ .btn-cta-header{
+   flex-direction: column;
+   button{
+     margin: 8px !important;
+   }
+ } 
+ .wrapper-our-formula {
+    .wrapper-partners {
+      flex-wrap: wrap;
+      .partners {
+        width: 45%;
+        margin: 20px 0px;
+        img {
+          width: 80px;
+        }
+      }
+    }
+  }
+  .wrapper-img-ppal {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    padding: 30px 0px 0px 0px;
+    img {
+      width: 100%;
     }
   }
 }
