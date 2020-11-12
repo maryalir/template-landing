@@ -80,6 +80,11 @@ $break-small: 566px;
 }
 
 @media screen and (max-width: $break-large) {
+  .container-info 
+  .wrapper-texto{
+    margin: 8px;
+  }
+
   .container-info-nav {
     flex-direction: column;
     margin: 25px 0;
