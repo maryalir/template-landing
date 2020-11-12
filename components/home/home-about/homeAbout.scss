@@ -21,10 +21,14 @@ $break-small: 566px;
     margin: 0px 45px;
     text-align: center;
     h4 {
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      font-weight: 500;
-    }
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 700;
+        color: $primary;
+      }
+      h2 {
+        font-size: 35px;
+      }
   }
 }
 

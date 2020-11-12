@@ -9,6 +9,8 @@ function Layout({ children }) {
         <link rel="stylesheet" type="text/css" href="styles.css" />
         <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
         <script type="text/javascript" src="scripts/scrollNav.js"></script>
+        <title>Mia Plus +</title>
+        <link rel="icon" type="image/png" href="favicon.png" />
       </Head>
       <Navigation />
       <div className="wrapper-container">
