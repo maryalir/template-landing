@@ -19,6 +19,9 @@ export default function HomeMap() {
               return <li key={i}>{text}</li>;
             })}
           </ul>
+          <div className="btn-cta-header">
+            <button>Get a quote now!</button>
+          </div>
         </div>
         <div className="wrapper-map">
           <img

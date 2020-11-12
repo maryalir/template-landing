@@ -24,7 +24,7 @@ export default function Footer() {
             <Link href="#">
               <li>Download our app</li>
             </Link>
-            <Link href="#">
+            <Link href="/contact">
               <li>Contact us</li>
             </Link>
           </ul>
